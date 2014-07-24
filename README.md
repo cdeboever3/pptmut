@@ -3,9 +3,9 @@ pptmut
 
 Research project.
 
-# Dependencies
+## Dependencies
 
-## Python
+### Python
 
 A working IPython notebook environment is needed along with some of the common
 scientific python packages that you likely already have as part of a working
