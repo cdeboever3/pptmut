@@ -14,10 +14,18 @@ root = _get_project_dir()
 ## external_data
 subdir = join(root, 'external_data')
 hg19 = join(subdir, 'hg19', 'hg19.fa')
-gencode_gtf = join(subdir, 'gencode', 'gencode.v14.annotation.gtf')
+gencode_gtf = join(subdir, 'gencode', 'gencode.v19.annotation.gtf')
+gencode_db = join(subdir, 'gencode', 'gencode.db')
+cancer_gene_census = join(subdir, 'cancer_gene_census.xls')
 
+## output
 
-## Random stuff
+### gencode_processing
+subdir = join(root, 'output', 'gencode_processing')
+gencode_gene_info = join(subdir, 'gene_info.tsv')
+gencode_sj_info = join(subdir, 'sj_info.tsv')
+
+# Random stuff
 
 def makedir(p):
     """Make a directory if it doesn't already exist"""

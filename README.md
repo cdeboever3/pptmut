@@ -15,6 +15,11 @@ most of the needed packages. Besides the default Anaconda packages, you will
 need
 
 * pybedtools
+* cdpybio
+
+You can download cdpybio from it's [github
+repo](https://github.com/cdeboever3/cdpybio) and install using 
+`python setup.py install`.
 
 You will also need to install the project specific python package from this
 repository. If you are using Anaconda, I'd recommend making a new environment.
