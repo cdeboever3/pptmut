@@ -25,6 +25,11 @@ subdir = join(root, 'output', 'gencode_processing')
 gencode_gene_info = join(subdir, 'gene_info.tsv')
 gencode_sj_info = join(subdir, 'sj_info.tsv')
 
+### target_genes
+subdir = join(root, 'output', 'target_genes')
+target_genes = join(subdir, 'target_genes.tsv')
+target_intervals = join(subdir, 'target_intervals.bed')
+
 # Random stuff
 
 def makedir(p):
