@@ -33,6 +33,7 @@ gencode_sj_info = join(subdir, 'sj_info.tsv')
 subdir = join(root, 'output', 'target_genes')
 target_genes = join(subdir, 'target_genes.tsv')
 target_intervals = join(subdir, 'target_intervals.bed')
+target_intervals_merged = join(subdir, 'target_intervals_merged.bed')
 
 ### target_samples
 subdir = join(root, 'output', 'target_samples')
