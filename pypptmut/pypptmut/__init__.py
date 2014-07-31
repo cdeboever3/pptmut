@@ -11,6 +11,10 @@ def _get_project_dir():
 
 root = _get_project_dir()
 
+## data
+subdir = join(root, 'data')
+cghub_manifest = join(subdir, 'cghub', 'LATEST_MANIFEST.tsv')
+
 ## external_data
 subdir = join(root, 'external_data')
 hg19 = join(subdir, 'hg19', 'hg19.fa')
@@ -29,6 +33,10 @@ gencode_sj_info = join(subdir, 'sj_info.tsv')
 subdir = join(root, 'output', 'target_genes')
 target_genes = join(subdir, 'target_genes.tsv')
 target_intervals = join(subdir, 'target_intervals.bed')
+
+### target_samples
+subdir = join(root, 'output', 'target_samples')
+target_samples = join(subdir, 'target_samples.tsv')
 
 # Random stuff
 

@@ -1,6 +1,8 @@
+data
 external_data
 notebooks/.ipynb_checkpoints
 output
+software
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
