@@ -17,7 +17,7 @@ cghub_manifest = join(subdir, 'cghub', 'LATEST_MANIFEST.tsv')
 
 ## external_data
 subdir = join(root, 'external_data')
-hg19 = join(subdir, 'hg19', 'hg19.fa')
+GRCh37_lite = join(subdir, 'GRCh37', 'GRCh37-lite.fa')
 gencode_gtf = join(subdir, 'gencode', 'gencode.v19.annotation.gtf')
 gencode_db = join(subdir, 'gencode', 'gencode.db')
 cancer_gene_census = join(subdir, 'cancer_gene_census.xls')
