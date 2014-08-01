@@ -21,6 +21,8 @@ GRCh37_lite = join(subdir, 'GRCh37', 'GRCh37-lite.fa')
 gencode_gtf = join(subdir, 'gencode', 'gencode.v19.annotation.gtf')
 gencode_db = join(subdir, 'gencode', 'gencode.db')
 cancer_gene_census = join(subdir, 'cancer_gene_census.xls')
+dbsnp = join(subdir, 'dbsnp', 'All.vcf')
+cosmic_all = join(subdir, 'cosmic', 'cosmic_all.vcf')
 
 ## output
 
