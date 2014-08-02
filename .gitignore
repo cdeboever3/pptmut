@@ -2,6 +2,7 @@ data
 external_data
 notebooks/.ipynb_checkpoints
 output
+sandbox
 software
 
 # Byte-compiled / optimized / DLL files
