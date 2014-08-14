@@ -27,3 +27,9 @@ From the `pptmut` directory, you can change into `pypptmut` and install using
 `python setup.py install` or `python setup.py develop` if you think you may want
 to make changes to the pypptmut package and have these changes instantly 
 propagated.
+
+## R
+
+You will need an R installation linked with rpy2 that is installed for the
+python installation that you will run the notebooks with. You will need to
+install Bioconductor and Gviz.
