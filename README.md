@@ -23,13 +23,18 @@ repo](https://github.com/cdeboever3/cdpybio) and install using
 
 You will also need to install the project specific python package from this
 repository. If you are using Anaconda, I'd recommend making a new environment.
-From the `pptmut` directory, you can change into `pypptmut` and install using
+From the `pptmut` directory, you can change into `projectpy` and install using
 `python setup.py install` or `python setup.py develop` if you think you may want
-to make changes to the pypptmut package and have these changes instantly 
+to make changes to the projectpy package and have these changes instantly 
 propagated.
 
-## R
+### R
 
 You will need an R installation linked with rpy2 that is installed for the
 python installation that you will run the notebooks with. You will need to
 install Bioconductor and Gviz.
+
+### Variant calling and GTFuse
+
+If you want to do the variant calling with GTFuse, you'll need a working
+version of GTFuse in your path. You'll also need the html5lib python package.

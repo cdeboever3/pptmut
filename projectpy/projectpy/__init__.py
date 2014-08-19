@@ -33,15 +33,26 @@ gencode_sj_info = join(subdir, 'sj_info.tsv')
 
 ### target_genes
 subdir = join(root, 'output', 'target_genes')
-target_genes = join(subdir, 'target_genes.tsv')
-target_intervals = join(subdir, 'target_intervals.bed')
-target_intervals_merged = join(subdir, 'target_intervals_merged.bed')
+cosmic_genes01 = join(subdir, 'cosmic_genes01.tsv')
+cosmic_intervals01 = join(subdir, 'cosmic_intervals01.bed')
+cosmic_intervals_merged01 = join(subdir, 'cosmic_intervals_merged01.bed')
 
 ### target_samples
 subdir = join(root, 'output', 'target_samples')
 target_samples = join(subdir, 'target_samples.tsv')
 
+## private_data
+subdir = join(root, 'private_data')
+cosmic_variants01 = join(subdir, 'cosmic_variants01')
+
+## software
+subdir = join(root, 'software')
+mutect = join(subdir, 'muTect/muTect-1.1.4.jar')
+picard = join(subdir, 'picard-tools-1.118')
+
 # Random stuff
+
+java = '/usr/lib64/jvm/java-1.6.0/bin/java'
 
 def makedir(p):
     """Make a directory if it doesn't already exist"""
