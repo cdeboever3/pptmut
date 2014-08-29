@@ -5,6 +5,7 @@ output
 private_data
 sandbox
 software
+tmp
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

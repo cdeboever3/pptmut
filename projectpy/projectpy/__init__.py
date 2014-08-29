@@ -41,14 +41,19 @@ cosmic_intervals_merged01 = join(subdir, 'cosmic_intervals_merged01.bed')
 subdir = join(root, 'output', 'target_samples')
 target_samples = join(subdir, 'target_samples.tsv')
 
+### branchpoint_analysis
+subdir = join(root, 'output', 'branchpoint_analysis')
+cosmic_intervals01_fasta = join(subdir, 'cosmic_intervals01.fa')
+cosmic_intervals01_bps = join(subdir, 'cosmic_intervals01_branchpoints.tsv')
+
 ## private_data
 subdir = join(root, 'private_data')
 cosmic_variants01 = join(subdir, 'cosmic_variants01')
 
 ## software
 subdir = join(root, 'software')
-mutect = join(subdir, 'muTect/muTect-1.1.4.jar')
-picard = join(subdir, 'picard-tools-1.118')
+mutect = join(subdir, 'muTect', 'muTect-1.1.4.jar')
+svm_bp = join(subdir, 'svm-bpfinder', 'svm_bpfinder.py')
 
 # Random stuff
 
