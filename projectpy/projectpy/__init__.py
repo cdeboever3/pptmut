@@ -11,9 +11,8 @@ def _get_project_dir():
 
 root = _get_project_dir()
 
-## data
-subdir = join(root, 'data')
-cghub_manifest = join(subdir, 'cghub', 'LATEST_MANIFEST.tsv')
+cghub_manifest = ('https://cghub.ucsc.edu/reports/'
+                  'SUMMARY_STATS/2014-08-29T12:00:01-0700_data_manifest.tsv')
 
 ## external_data
 subdir = join(root, 'external_data')
