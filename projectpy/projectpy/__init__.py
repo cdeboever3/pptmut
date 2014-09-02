@@ -44,6 +44,8 @@ target_samples = join(subdir, 'target_samples.tsv')
 subdir = join(root, 'output', 'branchpoint_analysis')
 cosmic_intervals01_fasta = join(subdir, 'cosmic_intervals01.fa')
 cosmic_intervals01_bps = join(subdir, 'cosmic_intervals01_branchpoints.tsv')
+cosmic_intervals01_bps_single = join(
+    subdir, 'cosmic_intervals01_branchpoints_single.tsv')
 
 ## private_data
 subdir = join(root, 'private_data')
