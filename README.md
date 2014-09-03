@@ -17,16 +17,19 @@ need
 * pybedtools
 * cdpybio
 
-You can download cdpybio from it's [github
-repo](https://github.com/cdeboever3/cdpybio) and install using 
-`python setup.py install`.
+
+I've included `cdpybio` as a submodule. After cloning this repository from
+Github, change into the repo directory and run:
+
+	git submodule init
+	git submodule update
 
 You will also need to install the project specific python package from this
 repository. If you are using Anaconda, I'd recommend making a new environment.
-From the `pptmut` directory, you can change into `projectpy` and install using
-`python setup.py install` or `python setup.py develop` if you think you may want
-to make changes to the projectpy package and have these changes instantly 
-propagated.
+From the `projectpy` directory, you can change into `projectpy` and install
+using `python setup.py install` or `python setup.py develop` if you think you
+may want to make changes to the projectpy package and have these changes
+instantly propagated.
 
 ### R
 
