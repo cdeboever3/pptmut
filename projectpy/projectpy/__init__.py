@@ -53,8 +53,17 @@ cosmic_variants01 = join(subdir, 'cosmic_variants01')
 
 ## software
 subdir = join(root, 'software')
+bedtools = join(subdir, 'bedtools2-2.20.1/bin/bedtools')
 mutect = join(subdir, 'muTect', 'muTect-1.1.4.jar')
-svm_bp = join(subdir, 'svm-bpfinder', 'svm_bpfinder.py')
+picard = join(subdir, 'picard-tools-1.118')
+R = join(subdir, 'R-3.1.1', 'bin', 'R')
+samtools = join(subdir, 'samtools-bcftools-htslib-1.0_x64-linux', 'bin',
+                'samtools')
+
+## submodules
+subdir = join(root, 'submodules')
+svm_bp = join('svm-bpfinder', 'svm_bpfinder.py')
+
 
 # Random stuff
 
